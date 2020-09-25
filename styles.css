@@ -1,0 +1,223 @@
+body {
+	background-color: #70adb5;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: aliceblue;
+}
+
+h1 {
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: aliceblue;
+}
+
+p{
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	font-weight: normal;
+  text-align: justify;
+  color: whitesmoke;
+}
+
+/* back to top button */
+#button {
+  display: inline-block;
+  background-color: #ffcbcb;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}
+
+/* brand name */
+
+
+
+.brand-name {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.5rem;
+	color: #111;
+	font-weight: 600;
+}
+/* navbar */
+.navbar_items {
+	color: #70adb5;
+	font-size: 1.3rem;
+}
+.navbar {
+  background-color: #70adb5;
+  
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+/* jumbotrom1 */
+
+.heading1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.3rem;
+	line-height: 1.2;
+  font-weight: 700;
+  color: white;
+}
+
+.paragraph1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: normal;
+	text-align: justify;
+}
+
+/* jumbotron2 */
+.heading2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.2rem;
+	line-height: 1.2;
+	font-weight: 500;
+	color: #111;
+}
+
+.paragraph2 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: normal;
+	text-align: justify;
+	color: #111;
+}
+
+/* jumbotron3 */
+.heading3 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.5rem;
+	line-height: 1.2;
+	font-weight: 500;
+  color: #111;
+  text-align: right;
+}
+
+.paragraph3 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: normal;
+	text-align: right;
+	color: #111;
+}
+
+.list-div {
+	width: 100%;
+	font-size: 1rem;
+  text-align: right;
+}
+
+.list-img {
+	width: 20%;
+	height: 10%;
+  padding-right: 5%;
+  float: left;
+}
+.para{
+  color: #111;
+  text-align: right;
+}
+/* Testimonials section */
+#testimonials {
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+  background-color: #70adb5;  
+  
+}
+
+.testimonial-class {
+	width: 10em;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+#press {
+	background-color: #111;
+	text-align: center;
+}
+
+.press-logos {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+.testimonials-padding {
+	padding: 7% 15%;
+}
+
+.fas{
+  margin:16px;
+}
+
+/* Footer Section  */
+#footer{
+  padding:7% 15%;
+  text-align:center;
+}
+
+.social-icon{
+  margin:20px 10px;
+  color: aliceblue;
+}
+
+.footerText{
+  color: rgba(255,255,255,.5);
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media(max-width:990px){
+  .disappear{
+    text-align: center;
+  }
+
+}
+@media(max-width:880px){
+  h1 {
+    text-align: center;
+  }
+  .heading3{
+    text-align: center;
+  }
+}
